@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:gravity="center">
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/given_name"
+        android:hint="le nom"
+        android:inputType="text" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/given_address"
+        android:hint="l'adresse"
+        android:inputType="text" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/given_surface"
+        android:hint="la surface en m^2 "
+        android:inputType="number" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/given_pieces"
+        android:hint="Le nombre de pièces"
+        android:inputType="number" />
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/yesorno_piscine"
+        android:text="L'existence de Piscine" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/bouton_calcul"
+        android:text="Calculez" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/resultats"
+        android:textSize="20dp"
+        android:layout_marginTop="22dp" />
+</LinearLayout>
